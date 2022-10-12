@@ -9,7 +9,7 @@ module.exports = {
             host: process.env.NODE_HOST || "",
             identifier: process.env.NODE_ID || "",
             port: parseInt(process.env.NODE_PORT || ""),
-            password: process.env.NODE_PASSWORD || "",
+            password: process.env.NODE_PASSWORD || "kdlavalink",
             secure: parseBoolean(process.env.NODE_SECURE || "false"),
 
         }
